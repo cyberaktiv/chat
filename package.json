@@ -21,7 +21,8 @@
   },
   "scripts": {
     "client": "webpack-dev-server -d --watch --open",
-    "server": "node src/server.js"
+    "server": "node src/server.js",
+    "build": "webpack --mode=production"
   },
   "author": "cyberaktiv@yandex.ru",
   "license": "ISC"
